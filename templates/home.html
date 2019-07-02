@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+</head>
+<body style="background-color:antiquewhite;">
+    <h1 style="color: red;">WordCount</h1>
+    <h3 style="color: blue;">Welcome to WordCount Website</h3>
+    <hr>
+    <form style="color:yellow;" action="{% url 'count' %}">
+        <textarea name="fulltextarea" cols=40 rows=10></textarea>
+        <br/>
+        <input type="submit" value="count"/>
+    </form>
+</body>
+</html>
+
